@@ -1,0 +1,118 @@
+* {  
+ margin:0;   padding:0;
+  }
+  /a:link{
+    background-color:#00ff00;
+    color:#ffff55;
+   }/
+
+  a:visited{
+   background-color:#000000;
+   color:#ffff55;
+  }
+
+a:hover{
+ background-color:#860037 ;
+ color:#ffffff;
+}
+a:active{
+ background-color:#cf467f;
+ color:#ffffff;
+}
+
+#columna1 
+{ 
+  position:absolute;       
+  top:0px;   
+  left:0px;        
+  width:200px;         
+  margin-top:10px; 
+  background-color:#fff; 
+}
+
+#columna2 
+{
+  margin-left:210px;  /* margenes*/
+  margin-right:20px;  
+  margin-top:10px;    
+  background-color:#fff; 
+}  
+
+#columna3 /**/
+{
+margin-left:210px;  
+margin-right:20px;  
+margin-top:10px;    
+background-color:#fff; 
+}
+
+#recuadro1{ 
+  left:20px;  
+  position:relative; 
+  border-radius: 100px;
+  background-color:#fff;    
+  width:200px; 
+  height:100px; 
+  padding:4px; 
+  -moz-animation-name: animacion1; 
+  -moz-animation-duration: 4s;
+  -webkit-animation-play-state:running; 
+  -webkit-animation-name: animacion1; 
+  -webkit-animation-duration: 10s; 
+  -webkit-animation-iteration-count: infinite; 
+  -webkit-animation-direction: alternate;  
+  -webkit-animation-timing-function: linear; 
+  -webkit-animation-delay: 1s;   
+  -o-animation-name: animacion1;
+  -o-animation-duration: 4s; 
+}                                                                                               
+@-moz-keyframes animacion1 { 
+  from { 
+    left:30px; 
+    background-color:#ddd; 
+  } 
+  to { 
+    left:300px;  
+    background-color:#ff0; 
+  } 
+} 
+@-webkit-keyframes animacion1 { 
+  from { 
+    left:30px; 
+    background-color:#fff;
+   
+  } 
+  to { 
+    left:500px;  
+    background-color:#860037 ;
+
+  } 
+} 
+@-o-keyframes animacion1 { 
+  from { 
+    left:30px; 
+    background-color:#ddd; 
+  } 
+  to {  
+    left:300px;                                                      
+    background-color:#ff0; 
+  } 
+} 
+body { 
+  background:white; 
+  margin:50px;
+  }
+  #recuadro2{  
+   box-shadow: 30px 30px 30px rgb(134, 0, 55) ;
+       border-radius: 20px;
+            background-color:#ddd; 
+              width:200px; 
+                padding:10px; 
+              } 
+    #recuadro3{  
+   box-shadow: 30px 30px 30px rgb(134, 0, 55) ;
+       border-radius: 20px;
+            background-color:#000; 
+              width:500px; 
+                padding:10px; 
+              }               
