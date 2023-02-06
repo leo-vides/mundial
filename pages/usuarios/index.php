@@ -1,3 +1,10 @@
+<?php include"classusuario.php";
+include"../acceso/classsesion.php"; 
+include"../acceso/session.php";
+$_SESSION['usuario']->getprivilegio(){
+  header("Location: ../usuarios/");
+}
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -20,7 +27,7 @@
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
 				<ul class="navbar-nav">
 					<li class="nav-item">
-						<a class="nav-link" href="./pages/index.html">LOGIN</a>
+						<a class="nav-link" href="./pages/login.html">LOGIN</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="./pages/formulario mundial.html">CONTACTENOS</a>
